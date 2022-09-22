@@ -12,7 +12,8 @@ function Container({
       {header ? <h2>{header}</h2> : null}
 
       <div className={`container-children ${direction} ${contentPosition}`}>
-        {children}
+        {/* children of this parent div */}
+        {children} 
       </div>
     </div>
   );
